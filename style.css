@@ -1,0 +1,144 @@
+@font-face {
+    font-family: facebook-font;
+    src: url(assets/images/klavika-bold.otf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #dfe3ee;
+}
+td{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    margin-left: 15px;
+    margin-top: 1px;
+    font-family: facebook-font;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    background-color: #3b5998;
+    color:#ffffff;
+    width: 100%;
+    height: 79px;
+}
+.username{
+    margin-left: 63vw;
+    width: 23vh;
+    height: 7vh;
+    display: grid;
+    padding-top: 3px;
+}
+.password{
+    display: grid;
+    width: 23vh;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.password a{
+    padding-top: 1px;
+}
+.login{
+    padding-left: 10px;
+    padding-top: 28px;
+}
+.login button{
+    background-color: #2256c5;
+    color: #ffffff;
+}
+.imgage{
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    padding: 70px;
+    position: relative;
+}
+.imgage p{
+    font-size: 20px;
+    font-family: Arial;
+    color: #3b5998;
+}
+.details{
+    /* padding-left: 40vw; */
+    position: absolute;
+    left: 140vh;
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.details input{
+    margin-top: 10px;
+}  
+.password a{
+    text-decoration: none;
+    color: #8b9dc3;
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.details p{
+    font-family: arial;
+}
+.sec{
+    display: flex;
+}
+.dateofbirth{
+    margin-top: 10px;
+}
+.dateofbirth a{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30vw;
+    position: fixed;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1f4fb5;
+}
+
+select{
+    margin-top: 10px;
+}
+.width{
+    width: 22vw;
+}
+#dob{
+    height: 30px;
+}
+.radio{
+    margin-top: 10px;
+}
+.sentence{
+    top: 45vh;
+    color: #646870;
+    font-size: 12px;
+    position: absolute;
+}
+.sentence2{
+    top: 60vh;
+    color: #646870;
+    font-size: 13px;
+    position: absolute;
+}
+.create{
+    position: absolute;
+    top: 53vh;
+    height: 35px;
+    width: 10vw;
+    border-radius: 6px;
+    border-color: #dfe3ee;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 10px 1px ;
+}
+/* .login{
+    margin-left: 200px;
+    position: absolute;
+} */
+
+
+
+
+.color{
+color: #1f4fb5;
+}
